@@ -1,0 +1,9 @@
+#include <stdio.h>
+void main()
+{
+    char ch;
+    ch=getc(stdin);
+    fflush(stdin);
+    putc(ch,stdout);
+    fflush(stdout);
+}
