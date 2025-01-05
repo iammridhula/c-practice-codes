@@ -1,0 +1,7 @@
+#include <stdio.h>
+void main(){
+    int num=20;
+    for(;num>=0;num--){
+        printf("%d\n", num);
+    }
+}
