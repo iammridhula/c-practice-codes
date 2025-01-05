@@ -1,0 +1,6 @@
+#include <stdio.h>
+void main(){
+    for(int num=20;num>=0;num--){
+        printf("%d\n", num);
+    }
+}
